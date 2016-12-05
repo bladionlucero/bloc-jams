@@ -8,9 +8,7 @@
  };
 
  var animatePoints = function(points) {
-
     forEach(points, revealPoint);
- 
  };
 
  window.onload = function() {

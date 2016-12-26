@@ -54,20 +54,22 @@
       + '  <td class="song-item-duration">' + songLength + '</td>'
       + '</tr>'
       ;
- 
 
      return $(template);
  };
+
+
+
 
 // #1
 
 var setCurrentAlbum = function(album) {
 
-     var $albumTitle = $('.album-view-title');
-     var $albumArtist = $('.album-view-artist');
-     var $albumReleaseInfo = $('.album-view-release-info');
-     var $albumImage = $('.album-cover-art');
-     var $albumSongList = $('.album-view-song-list');
+    var $albumTitle = $('.album-view-title');
+    var $albumArtist = $('.album-view-artist');
+    var $albumReleaseInfo = $('.album-view-release-info');
+    var $albumImage = $('.album-cover-art');
+    var $albumSongList = $('.album-view-song-list');
 
      // #2
      $albumTitle.text(album.title);
